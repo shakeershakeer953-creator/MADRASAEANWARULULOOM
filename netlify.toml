@@ -1,8 +1,0 @@
-[build]
- publish = "dist" # make sure this pointsto your build folder 
-command = "npm run build " # Adjust this if your build command is diffrent 
-
-[[redirects]]
-from = "/*"
-to = "/homepg.html"
-status = 200
